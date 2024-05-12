@@ -1,0 +1,12 @@
+-- upgrade --
+CREATE TABLE IF NOT EXISTS "botuser" (
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    "username" TEXT,
+    "full_name" TEXT NOT NULL
+);
+CREATE TABLE IF NOT EXISTS "aerich" (
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    "version" VARCHAR(255) NOT NULL,
+    "app" VARCHAR(100) NOT NULL,
+    "content" JSON NOT NULL
+);

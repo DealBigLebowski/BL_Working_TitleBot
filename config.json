@@ -1,0 +1,6 @@
+﻿{
+  "bot_token": "API Токен бота (можно получить в https://t.me/BotFather)",
+  "admin_user_id": "User ID администратора бота (можно получить в https://t.me/userinfobot)",
+  "database_uri": "sqlite://database.sqlite3",
+  "timezone": "Europe/Moscow"
+}
